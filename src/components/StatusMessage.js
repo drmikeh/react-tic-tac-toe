@@ -1,6 +1,6 @@
 function getStatusMessage(cp, winner, cat) {
     if (winner) {
-        return 'Player ' + cp + ' has won!'
+        return 'Player ' + winner + ' has won!'
     }
     else if (cat) {
         return 'CAT';
